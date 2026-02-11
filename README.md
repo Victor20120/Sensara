@@ -1,4 +1,4 @@
-# Sensara
+# Aether
 
 
 Adaptive Assistive Navigation System for Outdoor Safety
