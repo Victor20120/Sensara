@@ -1,1 +1,26 @@
 venv/
+# Python backend
+__pycache__/
+*.pyc
+#When Python runs your code it automatically creates these cache files. You don't need them on GitHub, they get recreated automatically
+*.pyo
+.env
+# where api keys are stored.
+/venv
+
+
+# Frontend
+node_modules/
+dist/
+#It's huge and unnecessary to upload because anyone can just run npm install to recreate it
+
+# General
+.DS_Store
+
+frontend/.vite/
+
+*.log
+npm-debug.log*
+
+
+.vscode/

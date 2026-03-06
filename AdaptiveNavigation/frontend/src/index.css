@@ -1,0 +1,11 @@
+@tailwind base;       /* resets browser default styles */
+@tailwind components; /* any reusable component styles */
+@tailwind utilities;  /* all the classes like text-blue-500, font-bold etc */
+
+
+/*tells Tailwind what to include*/
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 800;
+  font-style: normal;
+}
